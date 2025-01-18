@@ -1,0 +1,60 @@
+/* Footer styles */
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 2rem 0;
+}
+
+footer .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+footer .footer-content .branding,
+footer .footer-content .links {
+  margin-bottom: 1.5rem;
+}
+
+footer .footer-content .branding h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+}
+
+footer .footer-content .branding p {
+  font-size: 0.875rem;
+  color: #d1d1d1;
+}
+
+footer .footer-content .links a {
+  font-size: 0.875rem;
+  color: #d1d1d1;
+  margin-right: 1.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+footer .footer-content .links a:hover {
+  color: #f5a623;
+}
+
+footer .footer-content .social-media a {
+  font-size: 1.25rem;
+  color: #d1d1d1;
+  margin-right: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+footer .footer-content .social-media a:hover {
+  color: #f5a623;
+}
+
+footer .footer-content .footer-bottom {
+  margin-top: 2rem;
+  border-top: 1px solid #3a3a3a;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #d1d1d1;
+}

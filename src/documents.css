@@ -1,0 +1,74 @@
+/* Container Styles */
+.documents-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.documents-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Label Styles */
+.documents-container label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555555;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* Input Fields */
+.documents-container input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.documents-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Error Styling */
+.documents-container input.error {
+  border-color: #ff4d4f;
+}
+
+.documents-container .error-message {
+  color: #ff4d4f;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .documents-container {
+    padding: 15px;
+  }
+
+  .documents-container h2 {
+    font-size: 20px;
+  }
+
+  .documents-container label {
+    font-size: 13px;
+  }
+
+  .documents-container input {
+    font-size: 13px;
+    padding: 10px;
+  }
+}

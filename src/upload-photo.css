@@ -1,0 +1,96 @@
+/* Container for the upload area */
+.upload-area {
+  border: 2px dashed #d1d5db; /* Light gray dashed border */
+  border-radius: 12px; /* Rounded corners */
+  padding: 2rem; /* Spacing */
+  text-align: center;
+  background-color: #f9fafb; /* Slightly off-white background */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.upload-area:hover {
+  background-color: #f3f4f6; /* Darker off-white on hover */
+}
+
+/* Icon in the upload area */
+.upload-area .upload-icon {
+  margin: 0 auto 1rem;
+  color: #9ca3af; /* Medium gray color */
+  transition: color 0.3s ease-in-out;
+}
+
+.upload-area:hover .upload-icon {
+  color: #6b7280; /* Slightly darker gray on hover */
+}
+
+/* File input */
+.upload-area input[type="file"] {
+  display: none; /* Hide default file input */
+}
+
+/* Labels for the file input */
+.upload-area label {
+  cursor: pointer;
+  display: block;
+}
+
+.upload-area label span {
+  display: block;
+  font-size: 0.875rem; /* Small text */
+  color: #4b5563; /* Dark gray text */
+}
+
+.upload-area label span:last-child {
+  font-size: 0.75rem; /* Extra small text */
+  color: #9ca3af; /* Lighter gray text */
+}
+
+/* Error message */
+.error-message {
+  color: #ef4444; /* Red color */
+  font-size: 0.875rem; /* Small text */
+  margin-top: 0.5rem;
+}
+
+/* Photo grid container */
+.photo-grid {
+  margin-top: 1.5rem; /* Spacing above the grid */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem; /* Spacing between items */
+}
+
+/* Individual photo item */
+.photo-item {
+  position: relative;
+  border: 1px solid #e5e7eb; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 0.5rem;
+  background-color: #ffffff; /* White background */
+}
+
+.photo-item img {
+  height: 6rem; /* Fixed height for images */
+  width: 100%; /* Full width */
+  object-fit: cover;
+  border-radius: 6px; /* Rounded image corners */
+}
+
+/* Delete button for each photo */
+.photo-item button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: #ef4444; /* Red color */
+  color: white;
+  font-size: 0.75rem; /* Extra small text */
+  padding: 0.25rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.photo-item button:hover {
+  background-color: #dc2626; /* Darker red on hover */
+}

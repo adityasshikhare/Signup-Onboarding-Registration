@@ -1,0 +1,74 @@
+/* Container Styles */
+.kyc-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.kyc-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Label Styles */
+.kyc-container label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555555;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* Input Fields */
+.kyc-container input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.kyc-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Error Styling */
+.kyc-container input.error {
+  border-color: #ff4d4f;
+}
+
+.kyc-container .error-message {
+  color: #ff4d4f;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .kyc-container {
+    padding: 15px;
+  }
+
+  .kyc-container h2 {
+    font-size: 20px;
+  }
+
+  .kyc-container label {
+    font-size: 13px;
+  }
+
+  .kyc-container input {
+    font-size: 13px;
+    padding: 10px;
+  }
+}

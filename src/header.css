@@ -1,0 +1,73 @@
+/* Header styles */
+header {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+header .header-content .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header .header-content .logo img {
+  height: 32px;
+  width: auto;
+}
+
+header .header-content .logo h1 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+header .header-content nav {
+  display: flex;
+  gap: 2rem;
+}
+
+header .header-content nav a {
+  color: #4a4a4a;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+header .header-content nav a:hover {
+  color: #3b82f6; /* Blue hover color */
+}
+
+header .header-content .mobile-menu button {
+  background: transparent;
+  border: none;
+  color: #4a4a4a;
+  cursor: pointer;
+}
+
+header .header-content .mobile-menu button:focus {
+  outline: none;
+  ring: 2px solid #3b82f6;
+}
+
+header .header-content .mobile-menu svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  header .header-content nav {
+    display: none;
+  }
+
+  header .header-content .mobile-menu {
+    display: block;
+  }
+}

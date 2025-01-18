@@ -1,0 +1,88 @@
+/* Container Styles */
+.business-details-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.business-details-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Label Styles */
+.business-details-container label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555555;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* Input Fields */
+.business-details-container input,
+.business-details-container select,
+.business-details-container textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.business-details-container input:focus,
+.business-details-container select:focus,
+.business-details-container textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Error Styling */
+.business-details-container input.error,
+.business-details-container select.error,
+.business-details-container textarea.error {
+  border-color: #ff4d4f;
+}
+
+.business-details-container .error-message {
+  color: #ff4d4f;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 12px;
+}
+
+/* Dropdown Styling */
+.business-details-container select {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .business-details-container {
+    padding: 15px;
+  }
+
+  .business-details-container h2 {
+    font-size: 20px;
+  }
+
+  .business-details-container label {
+    font-size: 13px;
+  }
+
+  .business-details-container input,
+  .business-details-container select,
+  .business-details-container textarea {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
