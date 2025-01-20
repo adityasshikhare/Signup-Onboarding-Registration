@@ -46,7 +46,7 @@
 }
 
 /* Error Message */
-.error-message {
+.banking-details-container p {
   color: #ff4d4f;
   font-size: 12px;
   margin-top: -10px;

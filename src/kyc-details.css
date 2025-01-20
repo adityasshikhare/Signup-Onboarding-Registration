@@ -46,7 +46,7 @@
   border-color: #ff4d4f;
 }
 
-.kyc-container .error-message {
+.kyc-container p {
   color: #ff4d4f;
   font-size: 12px;
   margin-top: -8px;

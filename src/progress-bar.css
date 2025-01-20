@@ -17,19 +17,19 @@
 }
 
 /* Step Labels Container */
-.step-labels {
+.progress-bar-container .step-labels {
   display: flex;
   justify-content: space-between;
   margin-top: 8px;
 }
 
 /* Step Label */
-.step-label {
+.progress-bar-container .step-label {
   font-size: 12px; /* Small text */
   font-weight: 500;
   color: #6b7280; /* Gray color */
 }
 
-.step-label.active {
+.progress-bar-container .step-label.active {
   color: #2563eb; /* Darker blue for active step */
 }

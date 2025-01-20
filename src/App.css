@@ -1,9 +1,10 @@
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  margin: 0;
-  padding: 0;
+  background-color: #282c34;
+  margin: 0 auto;
+  justify: center;
+  padding: 0 auto;
   box-sizing: border-box;
 }
 
@@ -16,6 +17,7 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+
 /* Header with Steps */
 .steps-header {
   display: flex;
@@ -23,7 +25,7 @@ body {
   margin-bottom: 20px;
 }
 
-.step {
+.aditya .div step {
   width: 40px;
   height: 40px;
   display: flex;
@@ -38,16 +40,16 @@ body {
   transition: background-color 0.3s;
 }
 
-.step.active {
+.aditya step.active {
   background-color: #4caf50;
 }
 
-.step.completed {
+.aditya step.completed {
   background-color: #007bff;
 }
 
 /* Tooltip */
-.tooltip {
+.aditya .div tooltip {
   font-size: 12px;
   color: #333;
   background-color: #f4f4f4;
@@ -87,35 +89,37 @@ body {
 }
 
 /* Buttons */
-.button-group {
+.aditya button-group {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 
 }
 
-.button {
+.aditya button {
   padding: 10px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 4px; 
   font-size: 14px;
-  background-color: Blue;
+  background-color: #04AA6D;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin-top:20px;
 }
 
-.button.previous {
+.aditya button.previous {
   background-color: #ddd;
   color: #333;
+  margin-top:20px;
 }
 
 .button.previous:hover {
   background-color: #d0d0d0;
 }
 
-.button.next {
+.body button.next {
   background-color: blue;
-  color: #fff;
+  color: blue;
 }
 
 .button.next:hover {
@@ -142,7 +146,7 @@ body {
     align-items: center;
   }
 
-  .step {
+  .aditya step {
     margin-bottom: 10px;
   }
 

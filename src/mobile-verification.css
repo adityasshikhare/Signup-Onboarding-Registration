@@ -14,16 +14,32 @@
   margin-bottom: 6px;
   display: block;
   color: #333;
+  margin-top: 10px;
+  //margin: 50px;
+  text-align:center;
 }
 
 .mobile-verification-container input {
-  width: 100%;
+  width: 100% auto;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 14px;
-  margin-bottom: 15px;
+  margin-bottom: 15px auto;
+  justify: center;
   transition: border-color 0.3s ease-in-out;
+ 
+}
+
+.ss input {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  justify: center;
+  item-align:center;
+
 }
 
 .mobile-verification-container input:focus {
@@ -31,8 +47,8 @@
   outline: none;
 }
 
-.mobile-verification-container .error-message {
-  color: #ff4d4f;
+.mobile-verification-container p {
+  color: red; 
   font-size: 12px;
   margin-top: -10px;
   margin-bottom: 10px;
@@ -40,39 +56,41 @@
 
 /* Buttons */
 .mobile-verification-container button {
-  display: inline-block;
-  width: 100%;
-  padding: 10px;
+  justify:center;
+  align: auto;
+  padding: 10px 20px;
   border: none;
   border-radius: 4px;
   font-size: 14px;
-  font-weight: bold;
+  background-color: #04AA6D;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s;
+  margin-left: 50px;
+  margin-right: 20px;
 }
 
 .mobile-verification-container button:disabled {
-  background-color: #ccc;
+  background-color: #04AA6D;
   cursor: not-allowed;
 }
 
 .mobile-verification-container button.send-otp {
-  background-color: #007bff;
+  background-color: #04AA6D;
   color: white;
   margin-bottom: 15px;
 }
 
 .mobile-verification-container button.send-otp:hover {
-  background-color: #0056b3;
+  background-color: #04AA6D;
 }
 
 .mobile-verification-container button.verify-otp {
-  background-color: #28a745;
+  background-color: #04AA6D;
   color: white;
 }
 
 .mobile-verification-container button.verify-otp:hover {
-  background-color: #218838;
+  background-color: #04AA6D;
 }
 
 /* Mobile Styles */

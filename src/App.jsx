@@ -9,6 +9,7 @@ import Documents from './Documents';
 import BankingDetails from './BankingDetails';
 import UploadPhoto from './UploadPhotos';
 import './App.css';
+//import PhoneOtpForm from './phone-login'; 
 
 
 const Onboarding = () => {
@@ -35,6 +36,7 @@ const Onboarding = () => {
       id: 1,
       title: 'Mobile Verification',
       component: (
+        
         <MobileVerification
           formData={formData}
           setFormData={setFormData}
@@ -114,7 +116,7 @@ const Onboarding = () => {
 
   return (
     
-    <div className="max-w-4xl mx-auto p-6">
+    <div className="aditya">
       {/* Header with Progress Indicator */}
       <div className="flex items-center justify-between mb-8">
         {steps.map(({ id, title }) => (
@@ -149,8 +151,8 @@ const Onboarding = () => {
         {step > 1 && (
           <button
             onClick={handlePrevious}
-            className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-      //  className='bg-green-400'
+      //      className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        className='bg-green-400'
     //    className="px-4 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300 transition"
           >
             Previous    
